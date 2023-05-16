@@ -19,7 +19,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://test-f123.vercel.app", "https://test-f123-janeyziqinglin.vercel.app"],
+    origin: ["http://localhost:3000", "https://shop-sphere-frontend-new.vercel.app"],
+    // origin: ["http://localhost:3000", "https://test-f123.vercel.app", "https://test-f123-janeyziqinglin.vercel.app"],
     credentials: true,
   })
 );
